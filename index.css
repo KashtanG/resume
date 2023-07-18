@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@media (max-width: 650px) {
+    .info-text{
+        display: block;
+        text-align: center;
+    }
+}
+
+body {
+    font-size: 101%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    background-color: lightsalmon;
+    width: 500px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+img {
+    border-radius: 30px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.25);
+    transition: all .3s
+}
+img:hover {
+    border-radius: 10px;
+}
+
+ .social {
+    background-color: rgb(243, 253, 148);
+    color: black;
+    width: 675px;
+    border-radius: 15px;
+    padding-left: 38px;
+    padding-bottom: 1px;
+} 
+.social h3 {
+    padding-left: 130px;
+}
+
+.social p {
+    padding-left: 160px;
+}
+
+ a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all .3s;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ a:hover {
+    color: rgb(97, 97, 97);
+    font-size: 30px;
+}
+
+.hobby {
+    background-color: lightgreen;
+    width: 363px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-bottom: 3px;
+}
+
+.hobby h3 {
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+.work {
+    background-color: lightskyblue;
+    width: 370px;
+    border-radius: 20px;
+    padding-left: 12px;
+    padding-bottom: 3px;
+}
+
+.work h3 {
+    padding-top: 10px;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+
+.contact {
+    background-color: lightpink;
+    width: 50%;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.contact h3 {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 50px;
+
+}
+
+.button {
+    background-color:indianred ;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    border: 0px;
+}
+.button:hover {
+    background-color: rgb(206, 64, 64);
+    /* cursor: pointer; */
+}
+.button:active {
+    background-color: rgb(204, 26, 26);
+}
+
+
